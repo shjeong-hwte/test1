@@ -22,7 +22,8 @@ namespace WindowsFormsApp1
             button1.Text = "Change";
             label3.Text = label2.Text;
             label2.Text = label1.Text;
-            label1.Text = textBox1.Text;            
+            label1.Text = textBox1.Text;
+            textBox1.Text = "";
         }
     }
 }
