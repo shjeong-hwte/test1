@@ -19,9 +19,10 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label2.Text = label1.Text;
-            label1.Text = textBox1.Text;
             button1.Text = "Change";
+            label3.Text = label2.Text;
+            label2.Text = label1.Text;
+            label1.Text = textBox1.Text;            
         }
     }
 }
